@@ -48,7 +48,7 @@ namespace ShapesTest
 
         }
 
-        public virtual double Area()
+        public virtual double Area(double num1 ,double num2)
         {
             return Big_X * Big_Y;
         }

@@ -12,9 +12,9 @@ namespace ShapesTest
         }
 
 
-        public override double Area()
+        public override double Area(double num1,double num2)
         {
-            return (0.5 * Big_X*Big_Y);
+            return (0.5 * num2*num2);
         }
     }
 }
